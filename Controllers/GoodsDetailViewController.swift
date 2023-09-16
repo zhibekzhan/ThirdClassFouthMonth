@@ -53,6 +53,7 @@ class GoodsDetailViewController: UIViewController {
     
     private func setupConstraints() {
         NSLayoutConstraint.activate([
+            
             mainImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 0),
             mainImage.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             mainImage.trailingAnchor.constraint(equalTo: view.trailingAnchor),
